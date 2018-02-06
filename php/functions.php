@@ -6,7 +6,7 @@ $onDevelopment = false;
 function getConnection() {
     try {
         $connection = new PDO("mysql:host=localhost;dbname=unn_w16003995",
-            "unn_w16003995", "MTG3QZQ5");
+            "username", "password");
         $connection->setAttribute(PDO::ATTR_ERRMODE,
             PDO::ERRMODE_EXCEPTION);
         return $connection;
