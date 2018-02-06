@@ -1,0 +1,30 @@
+.ui-dialog .ui-dialog-buttonpane button.ui-button {
+    background-color: #ffe3d0;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+    background: #ffe3d0;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-state-active.ui-button:hover{
+    background-color: #ff9244!important;
+    border: 1px solid #ff6c00!important;
+}
+
+input[type=text].ui-autocomplete-loading {
+    background: white url("../media/loading.gif") right center no-repeat;
+    background-size: 10%;
+}
+
+#noResults{
+    display: none;
+    position: absolute;
+    right: 0;
+    color: #353535;
+    border: 1px solid #9e9eab;
+    border-radius: 1px;
+    margin-top: 0;
+    padding-left: 6px;
+    padding-right: 30px;
+    background-color: #ffffff;
+}

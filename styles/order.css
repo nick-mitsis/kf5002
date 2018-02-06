@@ -1,0 +1,68 @@
+main{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.selectBooks{
+    display: table;
+}
+
+.bookTitle{
+    text-align: left;
+    padding: 4px;
+    border-right: 2px solid #ffffff;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.bookYear{
+    text-align: left;
+    padding: 4px;
+    border-right: 2px solid #ffffff;
+    display: table-cell;
+    color: #808080;
+    vertical-align: middle;
+}
+
+.catDesc{
+    text-align: left;
+    padding: 4px;
+    border-right: 2px solid #ffffff;
+    display: table-cell;
+    color: #808080;
+    vertical-align: middle;
+}
+
+.bookPrice{
+    text-align: left;
+    padding: 4px;
+    border-right: 2px solid #ffffff;
+    display: table-cell;
+    color: #808080;
+    vertical-align: middle;
+}
+
+.item{
+    -webkit-transition: background-color 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: background-color 0.5s;
+    display: table-row;
+}
+
+.item:hover{
+    background-color: #ff984f;
+    -webkit-transition: background-color 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: background-color 0.5s;
+}
+
+.item:nth-child(even) {
+    background-color: #ffecde;
+    display: table-row;
+}
+
+.item:nth-child(even):hover {
+    background-color: #ff984f;
+}
+
+#retCustDetails{
+    margin-top: 30px;
+}

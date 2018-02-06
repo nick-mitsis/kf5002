@@ -1,0 +1,22 @@
+main{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.flexParent
+{
+    width: 95%;
+    margin: 1em auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.item
+{
+    width: 33%;
+    min-width: 190px;
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 60px;
+}

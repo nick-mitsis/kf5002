@@ -1,0 +1,105 @@
+html,body {
+    height:100%;
+}
+
+body{
+    position:relative;
+    padding:40px 0 50px;
+    opacity: 0.95;
+    width: 100%;
+}
+
+#target {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: rgb(255, 252, 190);
+    border-radius: 5px;
+    border: 1px solid #fff300;
+    color: #a52a2a;
+ }
+
+aside {
+    display: none;
+    position: relative;
+    width: 30%;
+    margin-left: 20%;
+    z-index: -1;
+}
+
+#mainText{
+    display: none;
+    width: 50%;
+
+}
+
+h2{
+    text-align: center;
+    background-color: #e78c4b;
+    color: #ffffff;
+    border: 1px solid #ea6403;
+    border-radius: 5px;
+}
+
+.flexParent
+{
+    width: 95%;
+    margin: 1em auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item
+{
+    min-width: 350px;
+    margin-bottom: 100px;
+}
+
+#slider{
+    width: 0;
+    height: 5px;
+    position: relative;
+    margin-top: -16px;
+    background-color: #e88946;
+    /* Standard syntax */
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    /* Safari syntax */
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}
+
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color:#e68f50; left:0; top:0;}
+    50%   {background-color:#e68f50; left:0; top:0; width: 50%;}
+    100%  {background-color:#e68f50; left:0; top:0; width: 100%;}
+}
+
+/* Safari syntax */
+@-webkit-keyframes example {
+    0%   {background-color:#e68f50; left:0; top:0;}
+    50%   {background-color:#e68f50; left:0; top:0; width: 50%;}
+    100%  {background-color:#e68f50; left:0; top:0; width: 100%;}
+}
+
+
+@media only screen and (max-width: 1254px) {
+    #mainText{
+         width: auto;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    aside{
+         margin-left: 0;
+         width: 25%;
+    }
+
+}

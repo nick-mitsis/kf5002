@@ -1,0 +1,52 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    color: #808080;
+}
+
+td, th {
+    text-align: left;
+    padding: 4px;
+    border-right: 2px solid #ffffff;
+}
+
+tr{
+    -webkit-transition: background-color 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: background-color 0.5s;
+}
+
+tr:hover{
+    background-color: #ff984f;
+    -webkit-transition: background-color 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: background-color 0.5s;
+}
+
+tr:nth-child(even) {
+    background-color: #ffecde;
+}
+
+tr:nth-child(even):hover {
+    background-color: #ff984f;
+}
+
+.noHover{
+    color: #000000;
+}
+
+.noHover:hover{
+    background-color: #ffffff;
+}
+
+main{
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+.tableLinks{
+    color: #000000;
+}
+
+.tableLinks:hover{
+    color: #000000;
+    text-decoration: underline;
+}

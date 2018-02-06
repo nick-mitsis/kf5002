@@ -1,0 +1,21 @@
+input[name=bookTitle]{
+    width: 80%;
+}
+
+input[name=bookYear]{
+    width: 15%;
+}
+
+input[name=bookPrice]{
+    width: 10%;
+}
+
+select{
+    width: 30%;
+}
+
+@media only screen and (max-width: 850px){
+    input[name=bookTitle], input[name=bookYear], input[name=bookPrice], select{
+       width: 100%;
+    }
+}

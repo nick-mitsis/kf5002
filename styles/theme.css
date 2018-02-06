@@ -1,0 +1,186 @@
+body{
+    font-family: "Lucida Sans Unicode", Verdana, sans-serif;
+    margin: 0;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#social_signin{
+    padding: 1%;
+    border-bottom: solid 1px rgba(255, 219, 153, 0.3);
+    /*position: absolute;*/
+    background-color: #FFFFFF;
+}
+
+#logo_nav{
+    box-shadow: 0 4px 8px 0 rgba(200, 82, 0, 0.2), 0 6px 20px 0 rgba(255, 100, 0, 0.19);;
+    /*position: absolute;*/
+    position: relative;
+    background-color: #FFFFFF;
+}
+
+#signInButton{
+    float: right;
+}
+
+#logo{
+    position: absolute;
+    width: 70px;
+    margin-left: 2%;
+}
+
+nav {
+    margin: 0 auto;
+    display: table;
+}
+
+nav ul{
+    list-style-type: none;
+    display: inline-flex;
+    padding: 0;
+    margin-left: -25%
+}
+
+#changeIfLogged{
+    display: -webkit-box;
+}
+
+#home{
+    margin-right: 25%;
+}
+
+#order{
+    margin-left: 25%;
+}
+
+#homeLogged{
+    margin-right: 5%;
+}
+
+#orderLogged{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#editLogged{
+    margin-left: 5%;
+}
+
+
+#username-logout{
+    color: #9e9e9e;
+    float: right
+}
+
+footer{
+    box-shadow:  0 4px 8px 0 rgb(200, 82, 0), 0 6px 20px 0 rgba(255, 100, 0, 0.96);
+    padding: 0.5%;
+    font-size: 0.8em;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 99%;
+    color: #9e9e9e;
+    background-color: #FFFFFF;
+}
+
+#footerLinks{
+    display: inline-block;
+}
+
+button{
+    position: absolute;
+    right: 1%;
+    top: 15%;
+    color: rgba(226, 108, 24, 0.8);
+    background-color: transparent;
+    border: none;
+    font-size: 2em;
+}
+
+button:focus{
+    outline-color: #e2650c;
+}
+
+a{
+    color: #9e9e9e;
+    text-decoration: none;
+    -webkit-transition: color 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: color 0.5s;
+}
+
+a:hover{
+    color: #e88946;
+    -webkit-transition: color 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: color 0.5s;
+}
+
+#searchBox{
+    box-shadow: 0 4px 8px 0 rgba(200, 82, 0, 0.2), 0 6px 20px 0 rgba(255, 100, 0, 0.19);
+    border: none;
+    font-size: 1.2em;
+    padding: 5%;
+    border-radius: 3px;
+    width: 90%;
+}
+
+.errorBox{
+    color: #ff0000;
+    padding: 5px;
+    padding-left: 20px;
+    margin-bottom: 5%;
+    margin-left: -1%;
+    margin-right: -1%;
+    background-color: #ffe5e5;
+    box-shadow: 0 4px 8px 0 rgb(255, 214, 214), 0 6px 20px 0 rgba(255, 0, 0, 0.22);
+}
+
+.errorHeading{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#searchBox:focus{
+    outline-color: #e2650c;
+}
+
+main{
+    margin-top: 150px;
+    margin-bottom: 50px;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+h1{
+    color: #e2650c;
+}
+
+h2{
+    color: #e88946;
+}
+
+.btnStyleLink{
+    background-color: rgba(226, 101, 12, 0.7);
+    color: white;
+    padding: 8px;
+    width: 250px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #cccccc;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btnStyleLink:hover{
+    background-color: rgba(226, 101, 12, 1);
+    color: white;
+}
+
+#price {
+    visibility: hidden;
+}
